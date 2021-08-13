@@ -1,5 +1,5 @@
 ## Description
-Cache api is a test created using Nestjs (Expressjs in the backbone). The api also implments swagger documentation to see the workflow.
+Cache api is a test created using Nestjs (Expressjs in the backbone). The api also implments swagger documentation to see the api endpoints.
 
 
 ## Run app
@@ -9,6 +9,9 @@ Cache api is a test created using Nestjs (Expressjs in the backbone). The api al
 
 ### Prerequisite
 Rename the `.env.example` to `.env` and add mongodb uri.
+
+### Description of replacing keys where there is a limit:
+The limit and ttl life can be configured in `config.js` file. When there is no space for more entries, the oldest entry will be replaced with given key and data.
 
 
 ### `npm run start:dev`
