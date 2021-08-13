@@ -25,5 +25,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Swagger documentation of the apis
 The project also includes a swagger api documentation of all the apis and schemas
-Open [http://localhost:3001/api](http://localhost:3001/api) to read documentation of the apis and to test the `endpoints`.
+Open [http://localhost:3000/api](http://localhost:3000/api) to read documentation of the apis and to test the `endpoints`.
 
